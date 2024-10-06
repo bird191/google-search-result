@@ -1,0 +1,44 @@
+.header{
+  display: flex;
+  gap: 20px;
+  width: 100%;
+}
+.google-logo{
+  width: 10%;
+  padding-left:5% ;
+}
+.google-logo img{width:100%;}
+.searchbar{
+  width: 70%;
+  height: 100%;
+}
+.searchbar input{
+  width: 100%;
+  border-radius: 5%;
+  border: 1px solid lightgray;
+}
+.buttons{
+  display: flex;
+  width: 100%;
+}
+.mic,.search{
+}
+.mic img{
+  width: 8%;
+}
+.search img{
+  width: 50%;
+}
+.righthand{
+  display: flex;
+  gap: 10px;
+}
+.options{
+  display: flex;
+}
+.options-right{
+  display: flex;
+}
+hr{
+  background-color: lightgray;
+}
