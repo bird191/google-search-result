@@ -4,27 +4,27 @@
   width: 100%;
 }
 .google-logo{
-  width: 10%;
+  width: 50%;
   padding-left:5% ;
 }
 .google-logo img{width:100%;}
 .searchbar{
-  width: 70%;
-  height: 100%;
+  width: 150%;
 }
 .searchbar input{
   width: 100%;
-  border-radius: 5%;
+  border-radius: 15px;
   border: 1px solid lightgray;
+  height: 25px;
 }
 .buttons{
   display: flex;
   width: 100%;
-}
-.mic,.search{
+  position: relative;
+  right: 22%;
 }
 .mic img{
-  width: 8%;
+  width: 20%;
 }
 .search img{
   width: 50%;
@@ -41,4 +41,21 @@
 }
 hr{
   background-color: lightgray;
+}
+footer{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.biggoogle{
+  width: 50%;
+  position: relative;
+  left: 25%;
+}
+.arrow{
+  position: relative;
+  left: 29%;
+  text-decoration: none;
+  font-size:50px;
+  bottom: 50px;
 }
