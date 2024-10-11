@@ -9,10 +9,10 @@
 }
 .google-logo img{width:100%;}
 .searchbar{
-  width: 150%;
+  width: 180%;
 }
 .searchbar input{
-  width: 100%;
+  width: 140%;
   border-radius: 15px;
   border: 1px solid lightgray;
   height: 25px;
@@ -21,26 +21,80 @@
   display: flex;
   width: 100%;
   position: relative;
-  right: 22%;
+  right: 5%;
 }
 .mic img{
-  width: 20%;
+  width: 9%;
+  position: relative;
+  top:8%;
+  left: 50%;
+  border-left:solid 1px lightgray ;
+  padding-left:10px ;
+}
+.clear{
+  position: relative;
+  left: 73px;
+  font-size: 30px;
+  bottom: 5px;
 }
 .search img{
   width: 50%;
+}
+.search{
+  position: relative;
+  right: 21%;
+  top:8%;
 }
 .righthand{
   display: flex;
   gap: 10px;
 }
+.righthand  img{
+  width: 20px;
+}
+.squish{
+  margin-right:30% ;
+  margin-left:20% ;
+}
 .options{
   display: flex;
+  font-size: 8px;
+  gap:10px;
+}
+.options div{
+  display: flex;
+}
+.options span{
+  position: relative;
+  top:30%;
 }
 .options-right{
   display: flex;
+  font-size: 8px;
+  gap:10px;
+  margin-left: 20px;
 }
 hr{
   background-color: lightgray;
+}
+.ask{
+  border:1px solid lightgray;
+  border-radius: 10px;
+}
+.ask div{
+  display: flex;
+  gap: 120px;
+  border-bottom: 1px solid lightgray;
+  padding: 0;
+}
+.ask :nth-child(4){
+  gap:180px;
+}
+.ask :nth-child(5){
+  gap:150px
+}
+.ask h1, .ask{
+  border-bottom: 1px solid lightgray;
 }
 footer{
   display: flex;
